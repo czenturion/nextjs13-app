@@ -1,0 +1,32 @@
+.storybook-link {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.storybook-link--primary {
+    color: white;
+    background-color: #1ea7fd;
+    border: 1px solid #7c3bff;
+}
+
+.storybook-link--secondary {
+    color: #eaeaea;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.storybook-link--small {
+    font-size: 18px;
+    padding: 8px 14px;
+}
+.storybook-link--medium {
+    font-size: 20px;
+    padding: 9px 18px;
+}
+.storybook-link--large {
+    font-size: 22px;
+    padding: 10px 20px;
+}
