@@ -33,3 +33,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Storybook
+.storybook/
+.cache/
+*.stories.js
+
+# IDE
+.idea/
+.log
