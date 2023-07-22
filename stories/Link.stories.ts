@@ -14,13 +14,15 @@ type Story = StoryObj<typeof Link>
 export const Primary: Story = {
     args: {
         primary: true,
-        label: 'Click',
+        label: 'Click link',
+        size: "medium"
     }
 };
 
-export const Warning: Story = {
+export const Secondary: Story = {
     args: {
-        primary: true,
-        label: 'Delete now',
+        primary: false,
+        label: 'Click link',
+        size: "large"
     }
 };
