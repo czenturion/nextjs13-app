@@ -19,17 +19,21 @@ export const Form = ({
     }
 
     return (
-        <form
-            className={['storybook-form', `storybook-form--${size}`, mode].join(' ')}
+        <div
+            className="background"
         >
-            <h3>Login</h3>
-            <input type="text" placeholder="Login"/>
-            <input type="text" placeholder="Password"/>
-            <div>
-                <input type="checkbox" id="rememberMe"/>
-                <label htmlFor="rememberMe">Remember me</label>
-            </div>
-            <button onClick={onClick}>Login</button>
-        </form>
+            <form
+                className={['storybook-form', `storybook-form--${size}`, mode].join(' ')}
+            >
+                <h3>Login</h3>
+                <input className="email" type="text" placeholder="Login"/>
+                <input className="password" type="text" placeholder="Password"/>
+                <div className="checkbox">
+                    <input type="checkbox" id="rememberMe"/>
+                    <label htmlFor="rememberMe">Remember me</label>
+                </div>
+                <button onClick={onClick}>Log In</button>
+            </form>
+        </div>
     )
 }
