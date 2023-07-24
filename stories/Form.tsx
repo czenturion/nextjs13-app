@@ -35,7 +35,7 @@ export const Form = ({
                 </div>
                 <div className="inputs">
                     <label htmlFor="email">Email</label>
-                    <input className="email" type="text" placeholder="Email" id="password"/>
+                    <input className="email" type="text" placeholder="Email" id="email"/>
                 </div>
                 <div className="inputs password">
                     <label htmlFor="password">Password</label>

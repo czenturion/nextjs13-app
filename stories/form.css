@@ -58,6 +58,9 @@
     justify-content: space-between;
     width: 132px;
     margin-top: 13px;
+}
+
+.icons img {
     cursor: pointer;
 }
 
@@ -71,6 +74,16 @@
     border-radius: 2px;
     background-color: #171717;
     color: #8D9094;
+}
+
+.storybook-form input:hover,
+.storybook-form input:focus,
+.storybook-form input:active {
+    background-color: #3f3f3f;
+}
+
+input:-webkit-autofill {
+    background-color: #3f3f3f;
 }
 
 .storybook-form button {
@@ -98,7 +111,7 @@
 
 .submit:hover {
     background-color: #1064fd;
-} 
+}
 
 .signIn-title {
     font-family: 'Inter', serif;
