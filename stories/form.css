@@ -49,6 +49,7 @@
     position: absolute;
     margin: 30px 12px 0 0;
     right: 0;
+    cursor: pointer;
 }
 
 .icons {
@@ -78,7 +79,6 @@
     cursor: pointer;
 }
 
-
 .submit,
 .signIn {
     font-family: 'Inter', serif;
@@ -95,6 +95,10 @@
     margin-top: 36px;
     line-height: 24px;
 }
+
+.submit:hover {
+    background-color: #1064fd;
+} 
 
 .signIn-title {
     font-family: 'Inter', serif;
