@@ -3,50 +3,109 @@
     display: flex;
     justify-content: center;
     padding-top: 40px;
-    height: 400px;
+    height: 750px;
 }
 
 .storybook-form {
-    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 500;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    gap: 32px;
-    border: .1rem solid grey;
-    border-radius: 10px;
-    padding: 30px;
-    letter-spacing: .2rem;
-    background-color: #333333;
-    height: 300px;
+    padding-top: 23px;
+    width: 378px;
+    height: 600px;
+    outline: 1px solid #333333;
+    border-radius: 2px;
+    background-color: #171717;
 }
 
-.email,
-.password {
-    padding: 10px;
-    width: 80%;
-    border: .1rem solid grey;
-    border-radius: 3px;
-}
-
-.storybook-form h3 {
+.storybook-form h2 {
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 36px;
     margin: 0;
 }
 
-.checkbox {
-    display: flex;
-    align-items: center;
+.storybook-form label {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
-#rememberMe {
-    margin: 0 10px 0 0;
-    align-items: center;
+.storybook-form .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin-top: 24px;
+}
+
+.inputs {
+    position: relative;
+}
+
+.inputs img {
+    position: absolute;
+    margin: 30px 12px 0 0;
+    right: 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 132px;
+    margin-top: 13px;
+}
+
+.storybook-form input {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    outline: 1px solid #333333;
+    border-radius: 2px;
+    background-color: #171717;
+    color: #8D9094;
 }
 
 .storybook-form button {
-    padding: 8px 32px;
-    font-weight: bold;
-    letter-spacing: .2rem;
-    color: #333333;
+    padding: 6px 0;
+    width: 330px;
+}
+
+
+.submit,
+.signIn {
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.submit {
+    background-color: #397DF6;
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 36px;
+    line-height: 24px;
+}
+
+.signIn-title {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin: 18px 0 6px;
+}
+
+.signIn {
+    line-height: 24px;
+    background-color: transparent;
+    border: none;
+    color: #397DF6;
+    padding: 0;
 }
